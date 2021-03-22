@@ -26,6 +26,12 @@
 
 # Como utilizar
 
+⌨️ Para utilizar o script é super fácil, basta digitar os comandos a baixo que o programa será executado automaticamente.
+
 <pre>
-  <code>root@server:~# teste</code>
+  <code>root@server:~# git clone https://github.com/zGumeloBr/zShield.git</code>
+</pre>
+
+<pre>
+  <code>root@server:~# bash ./zShield.sh</code>
 </pre>
