@@ -1,4 +1,4 @@
-https://cdn.discordapp.com/attachments/809894998522593311/823610981355749396/zshield.png
+https://imgur.com/a/YOJPzUH
 
 # zShield
 
