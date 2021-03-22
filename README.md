@@ -35,3 +35,8 @@
 <pre>
   <code>root@server:~# bash ./zShield.sh</code>
 </pre>
+
+# Contato
+
+`Discord:` zGumeloBr#8726
+`GitHub:`https://github.com/zGumeloBr/ 
