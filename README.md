@@ -4,8 +4,19 @@
 
 # Informações
 
-🛡 Sistema de bloqueio e coleta automatica de proxies SOCKS4 e SOCKS5, previnindo sua maquina de ataque bot's e ddo's esse sistema simples contem plataformas muito utilizadas na coleta de proxies, assim realizando o mesmo procedimento de coleta automaticamente o script coleta todas as proxys retira suas portas e já implementa um bloqueio da proxys atráves de IPTABLES e IPSET.
-  Alem de uma fácil utilização esse sistema e constantemente atualizado para melhorar a experiência do usário em relação a nossa proteção, lembrando essa proteção **NÃO** é 100% eficaz na proteção de seus servidores, recomendamos tambem que utilize a proteção fornecida pela sua provedora ou de terceiros.
+🛡 O zProxyFilter e um sistema que faz a coleta automatica de proxys do tipo SOCKS4, SOCKS5, HTTPS e HTTP e faz o bloqueio utilizando as ferramentas `IPTABLES e IPSET` assim criando uma proteção a mais em sua maquina, o proxyfilter faz uma coleta de 20mil+ proxies a cada execução, recomendamos executar nosso script todo dia, assim atualizando a lista de proxys bloqueadas em seu firewall.
+
+# Funcionamento
+
+📡 Nosso script funciona com dois sistemas que chamamos de `MPB e APB`que fazem a coleta de grandes quantidades de proxys, disponibilizadas por sites de terceiros, mas como esses sistemas funcionam ? Leia a baixo a rápida explicação deles:
+
+❖ APB (Automatic Proxy Blocker):
+
+O APB funciona coletando autoamticamente proxys de sistes como `ProxyScraper, Github, TOR` e outros assim de forma automatica bloqueando todas as proxys coletadas, atualmente coletamos de 16 locais as proxies bloqueadas.
+
+❖ MPB (Manual Proxy Blocker):
+
+O MPB consiste em uma forma de coleta de proxys manual realizada por nossos desenvolvedores, que a cada 24H realizam uma coleta rigorosa de proxys que não podem se obitidas e forma automaticas automatica, assim nosso script sempre que iniciado irá fazer a copia das proxys coletadas e bloquar respectivamente elas.
 
 # Sistemas compatíveis
 
@@ -13,8 +24,8 @@
 |----------|---------|-----------------|
 | Ubuntu   | 20.04   | ✅              |
 |          | 18.04   | ✅              |
-| CentOS   | 8       | ❌              |
-|          | 7       | ❌              |
+| CentOS   | 8       | ✅              |
+|          | 7       | ✅              |
 | Debian   | 10      | ✅              |
 |          | 9       | ✅              |
 |          | 8       | ✅              |
@@ -33,5 +44,4 @@
 
 # Contato
 
-`Discord:` zGumeloBr#8726<p></p>
-`GitHub:`https://github.com/zGumeloBr/ 
+`Discord:` zGumeloBr#8726
