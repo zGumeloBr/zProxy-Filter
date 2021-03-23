@@ -12,7 +12,7 @@
 
 **❖ APB (Automatic Proxy Blocker):**
 
-O APB funciona coletando autoamticamente proxys de sistes como `ProxyScraper, Github, TOR` e outros assim de forma automatica bloqueando todas as proxys coletadas, atualmente coletamos de 16 locais as proxies bloqueadas.
+O APB funciona coletando autoamticamente proxys de sistes como `ProxyScraper, Github, TOR` e outros, assim de forma automatica bloqueando todas as proxys coletadas, atualmente coletamos de 16 locais as proxies bloqueadas.
 
 **❖ MPB (Manual Proxy Blocker):**
 
