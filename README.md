@@ -45,3 +45,9 @@ O MPB consiste em uma forma de coleta de proxys manual realizada por nossos dese
 # Contato
 
 `Discord:` zGumeloBr#8726
+
+# Contribuidores
+
+oagiota: Contribuição de proxies.<p></p>
+https://github.com/oagiota
+
