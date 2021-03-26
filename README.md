@@ -4,31 +4,23 @@
 
 # Sobre
 
-🛡 O zProxyFilter e um sistema que faz a coleta automatica de proxys do tipo SOCKS4, SOCKS5, HTTPS e HTTP e faz o bloqueio utilizando as ferramentas `IPTABLES e IPSET` assim criando uma proteção a mais em sua maquina, o proxyfilter faz uma coleta de 20mil+ proxies a cada execução, recomendamos executar nosso script todo dia, assim atualizando a lista de proxys bloqueadas em seu firewall.
+🛡 O zProxyFilter e um sistema de bloqueio automatico de proxies SOCKS4, SOCKS5, HTTP e HTTPS, utilizando sua própria `API` ele faz uma vasta coleta de proxies que estão registradas em seu sistema e faz um bloqueio nativo das mesmas, assim previnindo e diminuindo o impacto de ataques `DDOS e BOT`. O sistema conta com recursos que facilitam a vida do usário permitindo se sentir um pouco mais seguro em relação a proteção de sua maquina.
 
 # Recursos
 
-📡 Nosso script funciona com dois sistemas que chamamos de `MPB e APB` que realizam a coleta de grandes quantidades de proxys, disponibilizadas por sites de terceiros, mas como esses sistemas funcionam ? Leia a baixo a rápida explicação deles:
+📡 O sistema conta uma serie de recursos que a cada autalização são melhorados ao máximo para obter o melhor resultado possível, segue a baixo uma lista de recursos e suas funções:
 
 **❖ APB (Automatic Proxy Blocker):**
 
-O APB funciona coletando autoamticamente proxys de sistes como `ProxyScraper, Github, TOR` e outros, assim de forma automatica bloqueando todas as proxys coletadas, atualmente coletamos de 16 locais as proxies bloqueadas.
+Coleta automatica de proxies e bloqueio inteligente todos os dias ao meio dia (horário de São Paulo), permitindo assim que exista uma vasta lista de proxies bloqueadas previnindo ataques que estão sendo desenvolvidos todo dia.
 
-**❖ MPB (Manual Proxy Blocker):**
+**❖ ASB (Azure Services Blocker):**
 
-O MPB consiste em uma forma de coleta de proxys manual realizada por nossos desenvolvedores, que a cada 24H realizam uma coleta rigorosa de proxys que não podem se obitidas e forma automaticas automatica, assim nosso script sempre que iniciado irá fazer a copia das proxys coletadas e bloquar respectivamente elas.
+Muitos ataque hoje em dia são realizados utilizando maquinas do serviço Azure da Microsoft, sendo assim disponibilizamos um módulo opcional quer permite o usuário bloquear todos os IP's registrados do serviço Azure, assim impedindo qualquer tipo de conexão com a maquina.
 
-# Sistemas compatíveis
+**❖ EMPB (Extensive Manual Proxy Blocker):**
 
-| Sistemas | Versões | Compatibilidade |
-|----------|---------|-----------------|
-| Ubuntu   | 20.04   | ✅              |
-|          | 18.04   | ✅              |
-| CentOS   | 8       | ✅              |
-|          | 7       | ✅              |
-| Debian   | 10      | ✅              |
-|          | 9       | ✅              |
-|          | 8       | ✅              |
+O módulo EMPB bloqueia automaticamente uma lista extensa de proxies que já foram registradas em outras plataformas de proteções, assim criando mais uma camada de proteção que automaticamente bloqueia proxies utilizadas em outros ataques realizados por pessoas mal intencionadas.
 
 # Como instalar
 
@@ -49,6 +41,18 @@ O MPB consiste em uma forma de coleta de proxys manual realizada por nossos dese
 <pre>
   <code>root@server:~# ./zProxyFilter.sh</code>
 </pre>
+
+# Sistemas compatíveis
+
+| Sistemas | Versões | Compatibilidade |
+|----------|---------|-----------------|
+| Ubuntu   | 20.04   | ✅              |
+|          | 18.04   | ✅              |
+| CentOS   | 8       | ✅              |
+|          | 7       | ✅              |
+| Debian   | 10      | ✅              |
+|          | 9       | ✅              |
+|          | 8       | ✅              |
 
 # Contribuidores
 
